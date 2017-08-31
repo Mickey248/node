@@ -1,0 +1,8 @@
+install node.js -http://nodejs.org/download in linux
+$ tar -zxf node-v0.12.4.tar.gz
+$ cd node-v0.12.4
+$ ./configure
+$ make
+$ sudo make install
+
+finish!!!
