@@ -1,0 +1,7 @@
+การเขียนโปรเเกรม event-driven เเบบ asynchronous
+//call back by file
+var fs = require('fs);
+fs.readFlie('hello.txt',function(err, data){
+	console.log(data.toString());
+});
+console.log('Do other things');
