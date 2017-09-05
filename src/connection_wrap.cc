@@ -29,7 +29,6 @@ ConnectionWrap<WrapType, UVType>::ConnectionWrap(Environment* env,
                  reinterpret_cast<uv_stream_t*>(&handle_),
                  provider) {}
 
-
 template <typename WrapType, typename UVType>
 void ConnectionWrap<WrapType, UVType>::OnConnection(uv_stream_t* handle,
                                                     int status) {
