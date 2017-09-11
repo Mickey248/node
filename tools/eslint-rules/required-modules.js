@@ -1,14 +1,7 @@
-/**
- * @fileoverview Require usage of specified node modules.
- * @author Rich Trott
- */
+
 'use strict';
 
 const path = require('path');
-
-//------------------------------------------------------------------------------
-// Rule Definition
-//------------------------------------------------------------------------------
 
 module.exports = function(context) {
   // trim required module names
